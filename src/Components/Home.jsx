@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>1
 
-      <div className="home">
+      <div className="home" id='home' >
         <main>
           <h1>GyanCoder</h1>
           <p>Solution To All Your Problems</p>
