@@ -4,11 +4,13 @@ import "./Styles/Header.scss"
 import "./Styles/Home.scss"
 import "./Styles/Footer.scss"
 import "./Styles/Contact.scss"
+import "./Styles/Services.scss"
 
 import Header from "./Components/Header.jsx";
 import Home from "./Components/Home.jsx";
 import Footer from "./Components/Footer.jsx";
 import Contact from "./Components/Contact.jsx";
+import Services from "./Components/Services.jsx";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}  />
         <Route path="/Contact" element={<Contact/>}  />
+        <Route path="/Services" element={<Services/>}  />
       </Routes>
       <Footer/>
     </Router>
