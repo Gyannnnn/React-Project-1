@@ -4,7 +4,7 @@ import "./Styles/Header.scss"
 import "./Styles/Home.scss"
 import "./Styles/Footer.scss"
 import "./Styles/Contact.scss"
-import "./Styles/Services.scss"
+import "./Styles/Mediaq.scss"
 
 import Header from "./Components/Header.jsx";
 import Home from "./Components/Home.jsx";

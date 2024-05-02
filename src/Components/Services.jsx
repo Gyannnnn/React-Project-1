@@ -9,9 +9,12 @@ const Services = () => {
         <div className="services">
 
 
-            <Carousel>
+            <Carousel
+            infiniteLoop autoPlay showStatus={false} showArrows={false} interval={1000} showThumbs={false}
+
+            >
                 <div>
-                    <img src={img1} alt="img1" />
+                    <img   src={img1} alt="img1" />
                     <p  className='legend' >
                         Full Stack
                     </p>

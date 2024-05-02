@@ -41,7 +41,7 @@
     height: 100vh;
     width: 100%;
     background: $second;
-    padding: 500px;
+    padding: 500px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@
     display: flex;
     > div{
         width: 70%;
-        height: 80vh;
+        height: 100vh;
         background: $first;
         border-radius: 20px 200px 200px 20px;
         display: flex;
@@ -128,7 +128,7 @@
 
 
 .home4{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background: $second;
     margin-top: -200px;
@@ -139,7 +139,7 @@
     >div{
         background-color: $third;
         width: 70%;
-        height: 80vh;
+        height: 100vh;
         border-radius: 200px 0 0 200px;
         display: flex;
         flex-direction: column;
